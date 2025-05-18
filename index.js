@@ -26,6 +26,15 @@ const swaggerOptions = {
 const swaggerSpec = swaggerJsdoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
+// --- ADD THIS ROOT ROUTE ---
+app.get('/', (req, res) => {
+    res.send(
+        `<h2>Notification Service is running!</h2>
+        <p>Visit <a href="/api-docs">/api-docs</a> for API documentation.</p>`
+    );
+});
+// ---------------------------
+
 /**
  * @openapi
  * /notifications:
