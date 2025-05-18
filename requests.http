@@ -1,0 +1,36 @@
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "userId": "123",
+  "type": "email",
+  "message": "Hello via Email!",
+  "email": "test@example.com"
+}
+
+###
+
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "userId": "123",
+  "type": "sms",
+  "message": "Hello via SMS!",
+  "phone": "+911234567890"
+}
+
+###
+
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "userId": "123",
+  "type": "in-app",
+  "message": "Hello in-app!"
+}
+
+###
+
+GET http://localhost:3000/users/123/notifications
