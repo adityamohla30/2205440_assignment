@@ -8,10 +8,13 @@ Features queue-based delivery, retry logic, and live API documentation.
 ## 🌐 Live Demo
 
 **App:**  
-https://your-app-name.onrender.com
+https://two205440-assignment.onrender.com
 
 **API Docs (Swagger):**  
-https://your-app-name.onrender.com/api-docs
+https://two205440-assignment.onrender.com/api-docs
+
+**GitHub Repository:**  
+https://github.com/adityamohla30/2205440_assignment
 
 ---
 
@@ -57,10 +60,13 @@ https://your-app-name.onrender.com/api-docs
 
 Open your terminal, go to your project folder, and run these commands one after the other:
 
+
 npm install
 npm start
 
+
 Then open [http://localhost:3000/api-docs](http://localhost:3000/api-docs) in your browser.
+
 
 ---
 
